@@ -3,6 +3,7 @@ Check your bulgarian citizenship status
 
 ## Description
 This script makes checking your bulgarian citizenship status automatic.
+
 Instead of going to http://publicbg.mjs.bg/BgInfo and entering your number and PIN every time manually, just use this script.
 
 ## Usage
