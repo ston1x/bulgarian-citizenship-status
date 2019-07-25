@@ -16,7 +16,7 @@ Instead of going to http://publicbg.mjs.bg/BgInfo and entering your number and P
 ## Dependencies
 - ruby >= 2.4.4
 - dotenv >= 2.5.0
-- watir >= 6.16.5
+- rest-client >= 2.0.2
 
 ## Installation
 0. Make sure you have ruby installed
