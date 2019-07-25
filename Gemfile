@@ -3,4 +3,4 @@
 source "https://rubygems.org"
 
 gem 'dotenv'
-gem 'watir'
+gem 'rest-client'
