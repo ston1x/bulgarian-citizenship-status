@@ -21,7 +21,6 @@ Instead of going to http://publicbg.mjs.bg/BgInfo and entering your number and P
 ## Installation
 0. Make sure you have ruby installed
 1. Put your REQ_NUM and PIN into `.env` file
-2. `$ gem install dotenv`
-3. `$ gem install watir`
-4. `ruby bg_citizenship_status.rb`
-5. Add it to cron if you wish 🚜🌾
+2. `$ bundle install`
+3. `ruby bg_citizenship_status.rb`
+4. Add it to cron if you wish 🚜🌾
