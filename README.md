@@ -1,4 +1,4 @@
-# bulgarian-citizenship-status
+# 🇧🇬 bulgarian-citizenship-status
 Check your bulgarian citizenship status
 
 ## Description
@@ -9,7 +9,14 @@ Instead of going to http://publicbg.mjs.bg/BgInfo and entering your number and P
 ## Usage
 
 ```sh
-🐷$ ruby bg_citizenship_status.rb
+$ REQ_NUM="Молба вх.номер" PIN="Вашият ПИН" ruby bg_citizenship_status.rb
+```
+or  
+Add `REQ_NUM` and `PIN` to `.env` file and just
+```sh
+$ ruby bg_citizenship_status.rb
+```
+```sh
 "По преписката Ви предстои да бъде извършен финален експертен преглед преди да бъде разгледана от Съвета по гражданство."
 ```
 
