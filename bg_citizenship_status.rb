@@ -3,7 +3,7 @@ require 'dotenv/load'
 require 'json'
 # Put your req_num and PIN into the .env file
 
-url = 'http://publicbg.mjs.bg/BgInfo/ReqInfo/GetReqInfo'
+url = 'https://publicbg.mjs.bg/BgInfo/ReqInfo/GetReqInfo'
 begin
   response = RestClient.post(
     url,
